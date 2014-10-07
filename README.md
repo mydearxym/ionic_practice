@@ -1,4 +1,6 @@
-### install
+### basic
+
+```bash
 
 npm install -g cordova ionic
 
@@ -14,3 +16,5 @@ ionic platform add ios
 ionic emulate ios
 
 ionic serve (web)
+
+```

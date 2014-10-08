@@ -1,3 +1,5 @@
 
 
 myapp/.idea/*
+myapp/node_modules/
+myapp-yo/node_modules/

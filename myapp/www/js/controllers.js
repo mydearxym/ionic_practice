@@ -1,7 +1,10 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
-})
+    $scope.refresh = function(){
+      console.log("refreshed!");
+    };
+  })
 
 .controller('FriendsCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
